@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sriven Srilakshmi - Cybersecurity and Digital Forensics Instructor</title>
+<meta name="description" content="Cybersecurity and digital forensics instructor profile focused on network defense, incident response, digital forensic analysis, cloud security, and hands-on lab-driven teaching.">
+
+<style>
+:root{
+  --bg:#0b0f13;
+  --muted:#98a0a6;
+  --accent:#00ff9f;
+  --mono:'SFMono-Regular',ui-monospace,Menlo,Monaco,"Roboto Mono",monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial;
+  background:
+    radial-gradient(1200px 600px at 10% 10%, rgba(0,255,159,0.03), transparent 8%),
+    radial-gradient(900px 500px at 90% 90%, rgba(0,255,159,0.02), transparent 10%),
+    var(--bg);
+  color:#e6eef2;
+  line-height:1.45;
+  padding:32px;
+}
+.container{max-width:1100px;margin:0 auto;display:grid;gap:28px}
+.card{
+  background:linear-gradient(180deg, rgba(255,255,255,0.012), rgba(255,255,255,0.006));
+  border:1px solid rgba(255,255,255,0.04);
+  border-left:4px solid rgba(0,255,159,0.10);
+  padding:22px;border-radius:12px;
+}
+.hero{display:flex;gap:18px;align-items:center}
+.avatar{
+  width:110px;height:110px;border-radius:14px;
+  background:linear-gradient(180deg,#071013,#0a1114);
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--mono);color:var(--accent);
+  font-weight:800;font-size:28px;
+}
+.cta{margin-left:auto;display:flex;gap:10px;flex-wrap:wrap}
+.btn{
+  padding:10px 14px;border-radius:10px;
+  font-weight:700;
+  border:1px solid rgba(0,255,159,0.14);
+  color:var(--accent);text-decoration:none;
+}
+.btn:hover,
+a.link:hover{opacity:0.9}
+.grid-2{display:grid;grid-template-columns:1fr 360px;gap:22px}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.project-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:900px){
+  .grid-2,.cols,.project-grid{grid-template-columns:1fr}
+  .cta{margin-left:0}
+}
+h1{margin:0 0 6px 0}
+h2{color:var(--accent);font-size:15px;letter-spacing:1px;margin:0 0 12px 0}
+h3{margin:0 0 8px 0;font-size:18px}
+p.lead{color:var(--muted);margin:0 0 12px 0}
+.project,.line{
+  padding:14px;border-radius:8px;
+  background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.005));
+  border:1px solid rgba(255,255,255,0.03);
+  margin-bottom:14px;
+}
+.project:last-child,.line:last-child{margin-bottom:0}
+.project{border-left:3px solid var(--accent)}
+.meta{color:var(--muted);font-size:13px;margin-bottom:6px}
+.muted{color:var(--muted)}
+.skills{display:flex;flex-wrap:wrap;gap:10px}
+.skill{
+  font-size:13px;font-weight:700;
+  padding:8px 10px;border-radius:8px;
+  border:1px solid rgba(255,255,255,0.04);
+}
+ul.muted{padding-left:18px;margin:10px 0 0 0}
+ul.muted li{margin-bottom:8px}
+a.link,
+.links a,
+.contact-links a,
+.inline-link{
+  color:var(--accent);
+  text-decoration:none;
+}
+.tag-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.tag{
+  font-size:12px;
+  padding:6px 9px;
+  border-radius:999px;
+  border:1px solid rgba(0,255,159,0.16);
+  color:var(--accent);
+}
+footer{text-align:center;color:var(--muted);font-size:13px}
+</style>
+</head>
+
+<body>
+<main class="container">
+
+<section class="card hero">
+  <div class="avatar">SS</div>
+  <div>
+    <h1>Sriven Srilakshmi</h1>
+    <div class="muted">
+      Cybersecurity and Digital Forensics Instructor - Network Defense - Incident Response - Applied Security Education
+    </div>
+  </div>
+  <div class="cta">
+    <a class="btn" href="#experience">Experience</a>
+    <a class="btn" href="#fit">Faculty Fit</a>
+    <a class="btn" href="#courses">Courses</a>
+    <a class="btn" href="#education">Education</a>
+    <a class="btn" href="#certifications">Certifications</a>
+    <a class="btn" href="#skills">Skills</a>
+    <a class="btn" href="#projects">Courses and Labs</a>
+    <a class="btn" href="#publications">Publications</a>
+    <a class="btn" href="#contact">Contact</a>
+  </div>
+</section>
+
+<section class="grid-2">
+  <div class="card">
+    <h2>About</h2>
+    <p class="lead">
+      Cybersecurity educator with hands-on teaching focus across computer and network security, cloud security, incident response, and digital forensics. I design applied, lab-first learning experiences using real attack and investigation scenarios so students build job-ready skills for SOC, blue team, and forensic analyst pathways.
+    </p>
+
+    <h2>Instruction Focus Areas</h2>
+    <div class="cols">
+      <div class="line">
+        <strong>Network and Cloud Security Curriculum</strong>
+        <div class="muted">
+          Computer and network security, AWS and GCP hardening, IAM governance, and secure architecture principles
+        </div>
+      </div>
+      <div class="line">
+        <strong>Service Mesh and API Security Labs</strong>
+        <div class="muted">
+          Istio mTLS enforcement, AuthorizationPolicy, Kong gateway controls, OAuth2, OIDC, and JWT validation
+        </div>
+      </div>
+      <div class="line">
+        <strong>Incident Response and System Security</strong>
+        <div class="muted">
+          Security operations workflows, alert triage, containment playbooks, and secure system administration practices
+        </div>
+      </div>
+      <div class="line">
+        <strong>Digital Forensics and Investigation</strong>
+        <div class="muted">
+          Forensic evidence handling, timeline analysis, IOC correlation, OSINT-assisted investigation, and reporting
+        </div>
+      </div>
+      <div class="line">
+        <strong>Research-Led Teaching</strong>
+        <div class="muted">
+          Privacy-preserving systems, encrypted aggregation, federated learning security, and technical mentorship
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <aside class="card links">
+    <h2>Links</h2>
+    <div class="muted">LinkedIn: <a class="link" href="https://www.linkedin.com/in/p-sriven/" target="_blank" rel="noopener noreferrer">linkedin.com/in/p-sriven</a></div>
+    <div class="muted">GitHub: <a class="link" href="https://github.com/SrivenSrilakshmi" target="_blank" rel="noopener noreferrer">github.com/SrivenSrilakshmi</a></div>
+    <div class="muted">Email: <a class="link" href="mailto:srivensrilakshmi@gmail.com">srivensrilakshmi@gmail.com</a></div>
+    <div class="muted">Scholar: <a class="link" href="https://scholar.google.com/citations?user=FLw_CQwAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a></div>
+  </aside>
+</section>
+
+<section id="fit" class="card">
+  <h2>Faculty Fit for Cybersecurity and Digital Forensics Roles</h2>
+  <div class="project-grid">
+    <div class="project">
+      <div class="meta">Teaching and Curriculum Alignment</div>
+      <ul class="muted">
+        <li>Prepared to teach four courses per semester across undergraduate and graduate formats, including day and evening sections.</li>
+        <li>Designs approved syllabus-ready courses with measurable objectives, student learning outcomes, assignments, rubrics, and assessment timelines.</li>
+        <li>Builds experiential labs and supervised student projects using real incident scenarios, investigation workflows, and industry-standard tools.</li>
+        <li>Uses LMS-centered instruction for syllabus delivery, assignment management, communication, and feedback cycles.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <div class="meta">Mentorship, Service, and Industry Engagement</div>
+      <ul class="muted">
+        <li>Mentors students from diverse backgrounds with career-focused coaching for cybersecurity, networking, and digital forensics pathways.</li>
+        <li>Supports student teams, labs, and club-style experiential learning with inclusive, high-engagement teaching practices.</li>
+        <li>Contributes to program assessment, course revisions, and interdisciplinary collaboration across cybersecurity and CIS initiatives.</li>
+        <li>Maintains and grows industry connections to support internships, job-shadow opportunities, and college-to-career outcomes.</li>
+      </ul>
+    </div>
+  </div>
+
+</section>
+
+<section id="experience" class="card">
+  <h2>Teaching Experience</h2>
+
+  <div class="project">
+    <div class="meta">University Tutoring - Faculty Enablement and Cyber Lab Instruction</div>
+    <h3>Volunteer Tutor for Computer Science in My Cyber Lab</h3>
+    <p class="muted"><em>2024 - Present</em></p>
+    <ul class="muted">
+      <li>Enabled faculty to teach advanced cybersecurity topics with confidence by co-developing structured, hands-on cyber lab modules for Istio, mTLS, API security, PKI, and Kubernetes hardening.</li>
+      <li>Improved instructional consistency across course sections by creating ready-to-use teaching assets: lab guides, demo scripts, grading checkpoints, and troubleshooting playbooks.</li>
+      <li>Reduced classroom friction for instructors during day and evening lab sessions by providing live student coaching and rapid issue resolution at the lab bench.</li>
+      <li>Strengthened teaching effectiveness by converting complex security concepts into applied scenarios that linked directly to real-world cloud and platform security roles.</li>
+      <li>Supported course quality improvement by mentoring teaching assistants, gathering feedback trends, and helping instructors refine lab flow, pacing, and assessment clarity.</li>
+      <li>Contributed digital forensics instruction support by guiding students through evidence collection workflows, investigative reasoning, and clear technical reporting.</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <div class="meta">Industry Training - Security Enablement</div>
+    <h3>Cloud Security Trainer and Enablement Analyst - Crystalline Software</h3>
+    <p class="muted"><em>2023 - 2024</em></p>
+    <ul class="muted">
+      <li>Delivered internal and client-facing training sessions on least-privilege IAM, cloud hardening baselines, and secure deployment workflows.</li>
+      <li>Created guided learning materials on RBAC and ABAC controls for SaaS and eCommerce systems, including review checklists and assessment templates.</li>
+      <li>Trained teams to integrate secrets scanning, policy linting, and IaC validation in CI/CD pipelines to improve secure release outcomes.</li>
+      <li>Facilitated practical exercises using SIEM and observability dashboards to teach incident triage and security event correlation.</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <div class="meta">Data Security and Risk Education</div>
+    <h3>Security Analytics Mentor - Amazon (Risk Operations)</h3>
+    <p class="muted"><em>2019 - 2020</em></p>
+    <ul class="muted">
+      <li>Coached peers on fraud detection fundamentals using Python and SQL-based analytical workflows.</li>
+      <li>Built internal knowledge guides on risk scoring concepts, anomaly analysis, and false-positive reduction strategies.</li>
+      <li>Supported onboarding and cross-training for secure payment workflow controls and abuse prevention practices.</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <div class="meta">Cybercrime Awareness and Forensics Education</div>
+    <h3>Cybersecurity Training Intern - Gurugram Police Cybercrime Unit</h3>
+    <p class="muted"><em>2022</em></p>
+    <ul class="muted">
+      <li>Assisted in preparing structured case-learning materials on digital evidence analysis, OSINT workflows, and attack pattern reporting.</li>
+      <li>Contributed to awareness-focused sessions on incident documentation and cybercrime investigation fundamentals.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="courses" class="card">
+  <h2>Courses I Can Teach</h2>
+  <div class="project-grid">
+    <div class="project">
+      <div class="meta">Undergraduate Cybersecurity and CIS</div>
+      <ul class="muted">
+        <li>Introduction to Cybersecurity</li>
+        <li>Computer Networking and Secure Network Design</li>
+        <li>Network Security and Defense</li>
+        <li>System Administration and Security Hardening</li>
+        <li>Ethical Hacking and Vulnerability Assessment</li>
+        <li>Cloud Security Fundamentals (AWS and GCP)</li>
+        <li>Secure Software Development and DevSecOps</li>
+        <li>Identity and Access Management</li>
+        <li>Digital Forensics Fundamentals</li>
+        <li>Computer Forensics and Evidence Analysis</li>
+        <li>Security Operations, Monitoring, and Incident Response</li>
+        <li>Malware Analysis Fundamentals</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <div class="meta">Graduate and Advanced Applied Courses</div>
+      <ul class="muted">
+        <li>Zero Trust Architecture and Implementation</li>
+        <li>Kubernetes and Container Security</li>
+        <li>Service Mesh Security (Istio and mTLS)</li>
+        <li>PKI, Certificate Lifecycle, and Secrets Management</li>
+        <li>API Security (OAuth2, OIDC, JWT, Gateway Controls)</li>
+        <li>Advanced Digital Forensic Analysis and Investigations</li>
+        <li>Incident Response Leadership and Threat Hunting</li>
+        <li>Advanced Cloud Security Governance and Compliance</li>
+        <li>Privacy-Preserving Systems and Applied Cryptography</li>
+        <li>Cybersecurity Capstone, Mentoring, and Career Readiness</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="line" style="margin-top:14px">
+    <strong>Teaching Approach</strong>
+    <div class="muted" style="margin-top:6px">
+      I deliver syllabus-aligned, outcome-driven instruction with real-world assignments, LMS-based course delivery, and inclusive mentoring for diverse undergraduate and graduate learners in both day and evening formats.
+    </div>
+  </div>
+</section>
+
+<section id="education" class="card">
+  <h2>Education</h2>
+  <div class="project">
+    <h3>M.S. Cybersecurity</h3>
+    <p class="muted">California State University, Dominguez Hills - 2024 - 2026 (Expected)</p>
+  </div>
+</section>
+
+<section id="certifications" class="card">
+  <h2>Certifications</h2>
+  <div class="skills">
+    <div class="skill">CEH (Certified Ethical Hacker)</div>
+    <div class="skill">CompTIA Security+ (In Progress)</div>
+    <div class="skill">CISSP / CCSP (Pursuing)</div>
+  </div>
+</section>
+
+<section id="skills" class="card">
+  <h2>Instructor Skill Set</h2>
+  <div class="skills">
+    <div class="skill">Cybersecurity Curriculum Design</div>
+    <div class="skill">Digital Forensics Instruction</div>
+    <div class="skill">Incident Response Training</div>
+    <div class="skill">Cloud Security Instruction (AWS/GCP)</div>
+    <div class="skill">Kubernetes Security Lab Development</div>
+    <div class="skill">System Administration Security</div>
+    <div class="skill">Service Mesh and mTLS Teaching</div>
+    <div class="skill">PKI and cert-manager Workshops</div>
+    <div class="skill">IAM Governance and Access Control Training</div>
+    <div class="skill">DevSecOps and CI/CD Security Enablement</div>
+    <div class="skill">Security Research Mentorship</div>
+    <div class="skill">Technical Assessment and Feedback</div>
+    <div class="skill">Python, Go, Bash for Security Labs</div>
+    <div class="skill">OAuth2, OIDC, JWT Instruction</div>
+    <div class="skill">Security Observability Training</div>
+    <div class="skill">Student Advising and Mentorship</div>
+    <div class="skill">Assessment and SLO Alignment</div>
+    <div class="skill">LMS-Centered Course Delivery</div>
+  </div>
+</section>
+
+<section id="engagement" class="card">
+  <h2>Professional Engagement</h2>
+  <div class="project-grid">
+    <div class="project">
+      <div class="meta">Professional Activities</div>
+      <ul class="muted">
+        <li>Active publication and research engagement in privacy-preserving systems and secure distributed architectures.</li>
+        <li>Professional affiliations and communities include IEEE research circles and ongoing participation in cybersecurity practitioner groups and workshops.</li>
+        <li>Continuous upskilling in evolving threat landscapes, investigation techniques, and applied security tooling.</li>
+        <li>Ongoing participation in cybersecurity community events, workshops, and practitioner learning forums.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <div class="meta">Institutional Contribution</div>
+      <ul class="muted">
+        <li>Supports course and curriculum refresh cycles to keep content aligned with current industry practice.</li>
+        <li>Contributes to inclusive learning environments and student-centered instruction for diverse adult learners.</li>
+        <li>Collaborates across academic and technical teams to improve lab operations and program outcomes.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="card">
+  <h2>Courses and Lab Modules</h2>
+
+  <div class="project-grid">
+    <div class="project">
+      <div class="meta">Lab Module - Service Mesh Security</div>
+      <h3>Istio mTLS and AuthorizationPolicy Practicum</h3>
+      <p class="muted">
+        A guided instructor-led lab where learners deploy strict mTLS, enforce policy controls, and validate secure east-west traffic in Kubernetes.
+      </p>
+      <div class="tag-row">
+        <span class="tag">Istio</span>
+        <span class="tag">mTLS</span>
+        <span class="tag">AuthorizationPolicy</span>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="meta">Lab Module - API Security</div>
+      <h3>Kong Gateway Security Workshop</h3>
+      <p class="muted">
+        Hands-on workshop teaching OAuth2/OIDC integration, JWT verification, rate limiting, and practical API abuse prevention controls.
+      </p>
+      <div class="tag-row">
+        <span class="tag">Kong</span>
+        <span class="tag">OAuth2/OIDC</span>
+        <span class="tag">JWT</span>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="meta">Lab Module - PKI and Certificate Management</div>
+      <h3>cert-manager PKI Lifecycle Lab</h3>
+      <p class="muted">
+        Practical module on certificate issuance, rotation, and revocation for Kubernetes workloads using cert-manager and internal CA patterns.
+      </p>
+      <div class="tag-row">
+        <span class="tag">cert-manager</span>
+        <span class="tag">PKI</span>
+        <span class="tag">Workload Identity</span>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="meta">Lab Module - Zero Trust Kubernetes</div>
+      <h3>Zero Trust Security Architecture Implementation</h3>
+      <p class="muted">
+        End-to-end instructional lab covering RBAC, namespace isolation, segmentation policies, and secure workload communication design.
+      </p>
+      <div class="tag-row">
+        <span class="tag">RBAC</span>
+        <span class="tag">Network Policies</span>
+        <span class="tag">Zero Trust</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="publications" class="card">
+  <h2>Publications (IEEE CCWC 2026)</h2>
+
+  <div class="project">
+    <h3><a class="inline-link" href="https://doi.org/10.1109/CCWC67433.2026.11393779" target="_blank" rel="noopener noreferrer">End-to-End Privacy-Aware Federated Learning for Wearable Health Devices via Encrypted Aggregation in Programmable Networks</a></h3>
+    <p class="muted">
+      Research used to support advanced classroom discussions on privacy-preserving AI systems and secure distributed learning.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3><a class="inline-link" href="https://doi.org/10.1109/CCWC67433.2026.11393722" target="_blank" rel="noopener noreferrer">Privacy-Preserving In-Network Aggregation for Real-Time Health Monitoring Using Homomorphic Encryption</a></h3>
+    <p class="muted">
+      Applied as research-backed teaching material for encrypted computation and edge security learning modules.
+    </p>
+  </div>
+</section>
+
+<section id="contact" class="card">
+  <h2>Contact</h2>
+  <p class="muted">
+    I am seeking opportunities as a Cybersecurity Instructor, Security Lab Educator, or Research-Led Teaching Professional in cloud and platform security domains.
+  </p>
+
+  <p class="muted">
+    If you are hiring for instructional roles in cybersecurity education, hands-on cloud security training, or university-industry security curriculum development, I would be glad to connect.
+  </p>
+
+  <div class="line contact-links" style="margin-top:14px">
+    <strong>Get in touch</strong>
+    <div class="muted" style="margin-top:6px">
+      Email: <a href="mailto:srivensrilakshmi@gmail.com">srivensrilakshmi@gmail.com</a>
+    </div>
+    <div class="muted">
+      LinkedIn: <a href="https://www.linkedin.com/in/p-sriven/" target="_blank" rel="noopener noreferrer">linkedin.com/in/p-sriven</a>
+    </div>
+    <div class="muted">
+      GitHub: <a href="https://github.com/SrivenSrilakshmi" target="_blank" rel="noopener noreferrer">github.com/SrivenSrilakshmi</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+Copyright <span id="year"></span> Sriven Srilakshmi
+</footer>
+
+</main>
+
+<script>
+document.getElementById("year").innerText = new Date().getFullYear();
+</script>
+</body>
+</html>
